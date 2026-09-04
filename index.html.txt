@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF‑8">
+<meta name="viewport" content="width=device-width, initial‑scale=1.0">
+<title>잠시 주차중입니다</title>
+<style>
+*{box‑sizing:border‑box;margin:0;padding:0;font‑family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;}
+body{background:#121419;color:#ffffff;padding:40px 20px;}
+.box{max‑width:420px;margin:0 auto;background:#1c2029;border‑radius:24px;padding:48px 30px;border:1px solid #333844;}
+.green‑tip{color:#70dd98;font‑size:14px;text‑align:center;margin‑bottom:40px;}
+.title{font‑size:34px;font‑weight:bold;text‑align:center;margin‑bottom:16px;}
+.desc{color:#b0b8c4;text‑align:center;font‑size:17px;line‑height:1.7;margin‑bottom:60px;}
+.buttons{display:flex;gap:24px;justify‑content:center;}
+.btn‑call{width:110px;height:110px;border‑radius:50%;background‑color:#102088;display:flex;align‑items:center;justify‑content:center;font‑size:42px;color:white;text‑decoration:none;}
+.btn‑sms{width:110px;height:110px;border‑radius:50%;background‑color:#272a33;display:flex;align‑items:center;justify‑content:center;font‑size:42px;color:white;text‑decoration:none;}
+.btn‑text{margin‑top:12px;text‑align:center;font‑size:15px;color:#dddddd;}
+.button‑item{display:flex;flex‑direction:column;}
+</style>
+</head>
+<body>
+<div class="box">
+<div class="green‑tip">● PRIVACY PROTECTED</div>
+<div class="title">잠시 주차중입니다</div>
+<div class="desc">연락이 필요할 경우<br>전화 또는 문자 부탁드립니다.</div>
+<div class="buttons">
+<div class="button‑item">
+<a class="btn‑call" href=" ">📞</a >
+<div class="btn‑text">전화연결</div>
+</div>
+<div class="button‑item">
+<a class="btn‑sms" href="sms:+82‑10‑3837‑0617?body=안녕하세요, 차량 이동 부탁드립니다. 감사합니다.">💬</a >
+<div class="btn‑text">문자전송</div>
+</div>
+</div>
+</div>
+</body>
+</html>
